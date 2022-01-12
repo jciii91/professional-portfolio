@@ -104,3 +104,37 @@ header nav ul li a:hover {
     padding-left: 10px;
     line-height: 1.5;
 }
+
+section a {
+    color: var(--color2);
+}
+
+section nav {
+    margin: 7px 0;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+section nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 18px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section nav ul li a:hover {
+    background: var(--color4);
+    color: var(--color3);
+    border-radius: 15px;
+    text-shadow: none;
+}
