@@ -111,6 +111,24 @@ section a {
     color: var(--color2);
 }
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 88%;
+}
+
+.headline-project {
+    width: 80%;
+    height: 50%;
+    margin: 5px 5px;
+}
+
+.project {
+    width: 40%;
+    margin: 5px 5px;
+}
+
 section nav {
     margin: 7px 0;
     width: 88%;
