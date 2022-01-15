@@ -111,22 +111,37 @@ section a {
     color: var(--color2);
 }
 
-.image-container {
+.project-container {
+    min-height: 500px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 88%;
 }
 
 .headline-project {
-    width: 80%;
-    height: 50%;
-    margin: 5px 5px;
+    position: relative;
+    width: 100%;
+    background-image: url('../images/placeholder.png');
+    margin: 10px 10px;
 }
 
 .project {
-    width: 40%;
-    margin: 5px 5px;
+    position: relative;
+    width: 45%;
+    background-image: url('../images/placeholder.png');
+    margin: 10px 10px;
+}
+
+.project-container p {
+    color: var(--color2);
+    font-weight: bolder;
+    text-shadow: 0 0 0;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 10px;
+    background-color: var(--color1);
+    border: 3px solid var(--color2);
 }
 
 section nav {
