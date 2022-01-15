@@ -119,20 +119,6 @@ section a {
     width: 88%;
 }
 
-.headline-project {
-    position: relative;
-    width: 100%;
-    background-image: url('../images/placeholder.png');
-    margin: 10px 10px;
-}
-
-.project {
-    position: relative;
-    width: 45%;
-    background-image: url('../images/placeholder.png');
-    margin: 10px 10px;
-}
-
 .project-container p {
     color: var(--color2);
     font-weight: bolder;
@@ -142,6 +128,28 @@ section a {
     bottom: 10px;
     background-color: var(--color1);
     border: 3px solid var(--color2);
+}
+
+.headline-project {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/placeholder.png');
+    margin: 10px 10px;
+}
+
+.headline-project:hover{
+    opacity: .75;
+}
+
+.project {
+    position: relative;
+    width: 45%;
+    background-image: url('../images/placeholder.png');
+    margin: 10px 10px;
+}
+
+.project:hover{
+    opacity: .75;
 }
 
 section nav {
