@@ -134,9 +134,33 @@ section a {
 .headline-project {
     position: relative;
     width: 100%;
-    background-image: url('../images/placeholder.png');
+    background-image: url('../images/headline-project.PNG');
+    background-size: cover;
     margin: 10px 10px;
 }
+
+#project1 {
+    background-image: url('../images/project1.PNG');
+    background-size: cover;
+}
+
+/* Projects to be added as new pages go live.
+
+#project2 {
+    background-image: url('');
+    background-size: cover;
+}
+
+#project3 {
+    background-image: url('');
+    background-size: cover;
+}
+
+#project4 {
+    background-image: url('');
+    background-size: cover;
+
+} */
 
 .headline-project:hover{
     opacity: .75;
