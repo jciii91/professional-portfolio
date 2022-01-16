@@ -224,4 +224,12 @@ section nav ul li a:hover {
     .title-container h2 {
         font-size: 14px;
     }
+
+    #contact-me nav {
+        width: 75%;
+    }
+
+    #contact-me nav ul li {
+        margin: 5px 0;
+    }
 }
