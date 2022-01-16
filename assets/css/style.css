@@ -71,10 +71,16 @@ header nav ul li a:hover {
 
 /* HEADER / NAVBAR STYLES END */
 
+/* PROFILE PICTURE STYLE START */
+
 .profile-pic-container {
     padding: 20px 50px;
     background-color: var(--color1);
 }
+
+/* PROFILE PICTURE STYLE END */
+
+/* CONTENT STYLING START */
 
 .content-row {
     padding: 20px 35px;
@@ -102,6 +108,10 @@ header nav ul li a:hover {
     margin-left: 8px;
 }
 
+/* CONTENT STYLING END */
+
+/* ABOUT ME STYLING START */
+
 .plain-text-container {
     width: 88%;
     padding-left: 10px;
@@ -111,6 +121,10 @@ header nav ul li a:hover {
 section a {
     color: var(--color2);
 }
+
+/* ABOUT ME STYLING END */
+
+/* PROJECT GALLERY STYLING START */
 
 .project-container {
     min-height: 500px;
@@ -177,6 +191,10 @@ section a {
     opacity: .75;
 }
 
+/* PROJECT GALLERY STYLING END */
+
+/* CONTACT SECTION STYLING START */
+
 section nav {
     margin: 7px 0;
     width: 88%;
@@ -206,6 +224,8 @@ section nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+/* CONTACT SECTION STYLING END */
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
