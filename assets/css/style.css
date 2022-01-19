@@ -153,6 +153,21 @@ section a {
     margin: 10px 10px;
 }
 
+.headline-project:hover{
+    opacity: .75;
+}
+
+.project {
+    position: relative;
+    width: 45%;
+    background-image: url('../images/placeholder.png');
+    margin: 10px 10px;
+}
+
+.project:hover{
+    opacity: .75;
+}
+
 #project1 {
     background-image: url('../images/project1.PNG');
     background-size: cover;
@@ -175,21 +190,6 @@ section a {
     background-size: cover;
 
 } */
-
-.headline-project:hover{
-    opacity: .75;
-}
-
-.project {
-    position: relative;
-    width: 45%;
-    background-image: url('../images/placeholder.png');
-    margin: 10px 10px;
-}
-
-.project:hover{
-    opacity: .75;
-}
 
 /* PROJECT GALLERY STYLING END */
 
