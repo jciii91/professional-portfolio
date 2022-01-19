@@ -158,12 +158,12 @@ section a {
     background-size: cover;
 }
 
-/* Projects to be added as new pages go live.
-
 #project2 {
-    background-image: url('');
+    background-image: url('../images/project2.png');
     background-size: cover;
 }
+
+/* Projects to be added as new pages go live.
 
 #project3 {
     background-image: url('');
