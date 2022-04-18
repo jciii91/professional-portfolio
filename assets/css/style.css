@@ -183,13 +183,10 @@ section a {
     background-size: cover;
 }
 
-/* Projects to be added as new pages go live.
-
 #project4 {
-    background-image: url('');
+    background-image: url('../images/project4.png');
     background-size: cover;
-
-} */
+}
 
 /* PROJECT GALLERY STYLING END */
 
